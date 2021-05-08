@@ -1,4 +1,4 @@
-## Microservicio que inyecta datos a ElasticSearch por medio de  un CSV
+## Microservicio que inyecta datos a ElasticSearch por medio de  un POST
 
 ### Se corre en local con 
 #### npm install
