@@ -1,0 +1,25 @@
+{
+  "name": "ek-final",
+  "version": "1.0.0",
+  "description": "Laboratorio Final Modulo 6 DevOps",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usach-devops/ms-ek.git"
+  },
+  "author": "Grupo 2 DevOps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usach-devops/ms-ek/issues"
+  },
+  "homepage": "https://github.com/usach-devops/ms-ek#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.12.0",
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
