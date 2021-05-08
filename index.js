@@ -18,7 +18,7 @@ app.use(express.urlencoded({
 
 app.post('/datasport/:indice', async (req, res) => {
     console.log('indice => ' + req.params.indice);
-    let count = 1;
+    let count = 0;
     const asyncRes = await Promise.all(req.body.map(async (item) => {
         try {
             console.log('item => ' + JSON.stringify(item));
